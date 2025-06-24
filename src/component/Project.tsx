@@ -1,8 +1,7 @@
 "use client";
 
 import Image from "next/image";
-import watermnt from '../public/water_management.jpg';
-import bookreview from '../public/bookreview.jpg';
+
 
 const ProjectsSection = () => (
   <section id="projects" className="py-16 px-4 bg-[#1a2238]">
