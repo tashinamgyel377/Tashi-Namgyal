@@ -1,6 +1,8 @@
 "use client";
 
 import Image from "next/image";
+import watermnt from '../public/water_management.jpg';
+import bookreview from '../public/bookreview.jpg';
 
 const ProjectsSection = () => (
   <section id="projects" className="py-16 px-4 bg-[#1a2238]">
@@ -15,6 +17,7 @@ const ProjectsSection = () => (
           width={600}
           height={400}
           className="w-full object-cover rounded-xl mb-4"
+            priority
         />
 
         <h3 className="text-xl font-bold mb-2 text-blue-700">🧮 Calculator App</h3>
@@ -53,6 +56,7 @@ const ProjectsSection = () => (
           width={600}
           height={400}
           className="w-full object-cover rounded-xl mb-4"
+            priority
         />
 
         <h3 className="text-xl font-bold mb-2 text-blue-700">📚 Book Review</h3>
@@ -87,11 +91,12 @@ const ProjectsSection = () => (
       {/* Water Management System */}
       <div className="p-6 border rounded-2xl shadow-lg bg-gray-800 hover:shadow-xl transition">
         <Image
-          src="/water_management.jpg"
+          src="/waterManagement.jpg"
           alt="Water Management System Screenshot"
           width={600}
           height={400}
           className="w-full object-cover rounded-xl mb-4"
+            priority
         />
 
         <h3 className="text-xl font-bold mb-2 text-blue-700">💧 Water Management System</h3>
