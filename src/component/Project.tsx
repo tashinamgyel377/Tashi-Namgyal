@@ -56,7 +56,7 @@ const ProjectsSection = () => (
         />
         <h3 className="text-xl font-bold text-blue-700">📚 Book Review</h3>
         <p className="text-white">
-          A book review platform where users can share their thoughts on books they've read, rate them, and discover new books based on recommendations. The app allows for user authentication and a custom dashboard to track reviews and ratings.
+ A book review platform where users can share their thoughts on books they&apos;ve read, rate them, and discover new books based on recommendations. The app allows for user authentication and a custom dashboard to track reviews and ratings.
         </p>
         <p className="text-sm text-white">
           <strong>Tech Stack:</strong> React, Node.js, Express, MongoDB, JWT Authentication

@@ -1,7 +1,6 @@
 "use client";
 
 import { useState } from "react";
-import Image from "next/image";
 import { Sparkles, Rocket, Bolt, User, MapPin } from "lucide-react";
 
 const AboutMe = () => {
