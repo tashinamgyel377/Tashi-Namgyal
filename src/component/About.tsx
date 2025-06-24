@@ -17,15 +17,8 @@ const AboutMe = () => {
 
       <div className="max-w-4xl mx-auto bg-[#12192d] p-8 rounded-xl shadow-xl">
         <div className="flex items-center justify-center gap-6 mb-8">
-          <Image
-            src="/profile.jpg"
-            alt="Profile"
-            width={112}
-            height={112}
-            className="rounded-full border-4 border-pink-600 shadow-lg object-cover"
-          />
+         
           <div className="text-left">
-            <h3 className="text-2xl font-semibold">Tashi Namgyel</h3>
             <p className="text-gray-400">Full-Stack Developer</p>
             <div className="flex items-center gap-2 mt-2">
               <MapPin className="w-4 h-4 text-pink-500" />

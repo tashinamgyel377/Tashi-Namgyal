@@ -9,7 +9,7 @@ const Profile = () => (
   >
     <div className="bg-white/40 backdrop-blur-lg p-8 rounded-2xl shadow-xl max-w-xl w-full border border-white/30">
       <Image
-        src="/buddha.jpg"
+        src="/me.jpg"
         alt="Profile"
         width={144}
         height={144}
