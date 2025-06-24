@@ -89,8 +89,8 @@ const ProjectsSection = () => (
 
       {/* Water Management System */}
       <div className="p-6 border rounded-2xl shadow-lg bg-gray-800 hover:shadow-xl transition">
-        <Image
-          src="/waterManagement.jpg"
+       <Image
+        src="/WaterManagement.jpg"
           alt="Water Management System Screenshot"
           width={600}
           height={400}
